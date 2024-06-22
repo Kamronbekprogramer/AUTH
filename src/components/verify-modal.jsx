@@ -51,15 +51,16 @@ const VerifyModal = ({ open, toggle }) => {
             variant="outlined"
             onChange={(e) => setCode(e.target.value)}
           />
-        </Box>
-        <Box sx={{ display: 'flex', justifyContent: 'flex-end', mt: 2 }}>
+           <Box sx={{ display: 'flex', justifyContent: 'flex-end', mt: 2 }}>
           <Button onClick={toggle} sx={{ mr: 1 }}>
             Cancel
           </Button>
-          <Button variant="contained">
+          <Button type="submit" variant="contained">
             Save
           </Button>
         </Box>
+        </Box>
+       
       </Box>
     </Modal>
   );
