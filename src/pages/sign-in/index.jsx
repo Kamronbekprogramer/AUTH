@@ -38,16 +38,6 @@ const SignIn = () => {
           onSubmit={handleSignIn}
           sx={{ mt: 2, width: "100%" }}
         >
-          {/* <TextField
-            margin="normal"
-            required
-            fullWidth
-            id="email"
-            label="Email Address"
-            variant="outlined"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          /> */}
           <TextField 
                   type="text"
                   required
@@ -61,17 +51,6 @@ const SignIn = () => {
                   name="email"
                   multiline
                 />
-          {/* <TextField
-            margin="normal"
-            required
-            fullWidth
-            id="password"
-            label="Password"
-            variant="outlined"
-            type="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          /> */}
           <TextField
                   type="password"
                   required
